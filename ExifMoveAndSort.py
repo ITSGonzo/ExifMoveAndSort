@@ -38,7 +38,7 @@ elif os.path.samefile(path, "/Users/YourUser/path/to/incoming"):
 
 # Force the locale to fr_FR.UTF-8 because Hazel use the wrong locale
 env = os.environ.copy()
-env['LANG'] = 'fr_FR.UTF-8'
+env['LANG'] = 'en_US.UTF-8'
 
 # Ensure PhotoReviewer, Phoenix Slides and PhotoSync are not running
 if not (is_running("PhotoReviewer\.app") or is_running("Phoenix Slides\.app") or is_running("PhotoSync\.app")):
